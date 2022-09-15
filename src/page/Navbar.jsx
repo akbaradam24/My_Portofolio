@@ -14,30 +14,30 @@ export default function Navbar() {
         <p>Adam Akhbar Hasani</p>
       </div>
       <div>
-        <ul className='flex space-x-4 '>
-            <li>
+        <ul className='sm:flex space-x-4 '>
+            <li className='hidden sm:flex space-x-4 '>
               <a href="#">Home</a>
             </li>
-            <li>
+            <li className='hidden sm:flex space-x-4 '>
               <a href="#">Education</a>
             </li>
-            <li>
+            <li className='hidden sm:flex space-x-4 '>
               <a href="#">Skill</a>
             </li>
-            <li>
+            <li className='hidden sm:flex space-x-4 '>
               <a href="#">Portofolio</a>
             </li>
-            <li>
+            <li className='hidden sm:flex space-x-4 '>
               <a href="#">About Me</a>
             </li>
             <li>
               <button>
-                <img className='w-10 h-10 hidden' onClick={handleBarclick} src={bar} alt="bar" />
+                <img className='w-10 h-10 sm:hidden' onClick={handleBarclick} src={bar} alt="bar" />
                 </button>
             </li>
         </ul>
-        <aside className={[barlogic ? ' hidden ' :'w-44 absolute  bg-slate-800  text-center text-white top-15 right-10']}>
-          <ul className='flex flex-col space-y-4'>
+        <aside className={[barlogic ? ' hidden ' :'w-44 h-full absolute  bg-slate-800  text-center text-white top-15 right-0']}>
+          <ul className='flex mt-5 flex-col space-y-4 transition duration-75 ease-in-out'>
             <li><a href="#">Home</a></li>
             <li><a href="#">Education</a></li>
             <li><a href="#">Skills</a></li>
