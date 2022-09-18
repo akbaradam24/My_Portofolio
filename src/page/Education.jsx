@@ -3,9 +3,9 @@ import React from 'react'
 export default function Education() {
   return (
   <>
-    <div className='dot bg-black w-5 h-5 rounded-full absolute ml-12 mt-20'></div>
-    <div className='dot bg-black w-5 h-5 rounded-full absolute ml-12 mt-44'></div>
-    <div className='ml-14 mt-10 flex-col space-y-5 pl-10 border-l-4 border-indigo-500'>
+    <div className='dot bg-cyan-200 w-5 h-5 rounded-full absolute ml-12 mt-20'></div>
+    <div className='dot bg-cyan-200 w-5 h-5 rounded-full absolute ml-12 mt-44'></div>
+    <div className='ml-14 mt-10 flex-col space-y-5 pl-10 border-l-4 border-grey'>
       <div>
           <p>Communication Major</p>
           <p>University Of Technology</p>

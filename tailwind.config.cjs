@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'CairoPlay':['Cairo Play', 'cursive'],
+        'ReemKufiInk':['Reem Kufi Ink', 'sans-serif'],
+      }
+    },
     screens: {
       'xs': '320px',
       //smallest screen

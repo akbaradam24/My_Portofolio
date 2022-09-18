@@ -68,6 +68,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;300&family=Reem+Kufi+Ink&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
